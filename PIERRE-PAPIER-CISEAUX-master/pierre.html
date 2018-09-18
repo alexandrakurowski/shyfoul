@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PIERRE PAPIER CISEAUX</title>
+		<script type="text/javascript" src="jquery-2.2.4.js"></script>
+		<link rel=Stylesheet type="text/css" href=pierre.css>
+	</head>
+
+	<body>
+	
+		
+	<div id="jeu">
+
+		<div id="jouer">
+			<button id="jouer">JOUER</button>
+		</div>
+
+		<div id="joueur">
+			<h1>Quel est votre prénom?</h1>
+			<input id="prenom" type="texte" name="tapez votre prénom" class="validate" placeholder="Quel est votre prénom?"></input>
+			<button id="ok">OK</button>
+		</div>	
+
+
+		<div id="choixjoueur" type="image">
+			<button id="pierre" class="choix">PIERRE</button>
+			<button id="papier" class="choix">PAPIER</button>
+			<button id="ciseaux"class="choix">CISEAUX</button>
+		</div>
+
+		<div id="affichage1">
+			<p id="cpt_joueur"></p>
+		</div>
+
+
+		<div id="affichage2">
+			<p>ordi</p>
+			<p id=" cpt_ordi"></p>
+		</div>
+
+
+		<div id="photoaff1" type="image">
+			<img src="pierre.jpeg" id="photo1"></img>
+			<img src="papier.jpeg" id="photo2"></img>
+			<img src="ciseaux.jpeg" id="photo3"></img>
+		</div>
+			
+		<div id="photoaff2" type="image">
+			<img src="pierre.jpeg" id="photo4"></img>
+			<img src="papier.jpeg" id="photo5"></img>
+			<img src="ciseaux.jpeg" id="photo6"></img>
+		</div>
+
+		<div id="resultat" type="bouton">
+			<button id="gagne">VOUS AVEZ GAGNE!!!</button>
+			<button id="perdu">VOUS AVEZ PERDU!!!</button>
+			<button id="egalite">EGALITE REJOUER!!!</button>
+		</div>
+
+	
+	</div>
+	
+		<script type="text/javascript" src="pierre.js"></script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+//Désactive le bouton
+$(#[identitifiant du bouton]).prop(disabled, true);
+//Active le bouton
+$(#[identitifiant du bouton]).prop(disabled, false
+
+
+
+
+
+\n retour ligne jquery
+

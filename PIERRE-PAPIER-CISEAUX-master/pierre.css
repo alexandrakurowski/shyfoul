@@ -1,0 +1,120 @@
+#jouer
+{
+	text-align: center;
+	font-size: 50px;
+}
+
+#choixjoueur
+{
+	text-align: center;
+	font-size: 50px;
+}
+
+body
+{
+	background-image: url("imgfond2.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+#jeu
+{
+	padding-top: 40%;
+}
+
+
+#pierre
+{
+	background-image: url(boutonpierre.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	color: transparent;
+	border-radius: 10px;
+}
+
+#papier
+{
+	background-image: url(boutonpapier.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	color: transparent;
+	border-radius: 10px;
+}
+
+#ciseaux
+{
+	background-image: url(boutonciseau.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	color: transparent;
+	border-radius: 10px;
+}
+
+#joueur
+{
+	
+	color: white;
+	margin-top: -540px;
+
+}
+
+
+#affichage1
+{
+	font-size: 50px;
+	color: white;
+	margin-top: -600px;	
+	margin-left: 50px;
+}
+
+#affichage2
+{
+	font-size: 50px;
+	color: white;
+	float: right;
+	margin-top: -500px;
+	margin-right: 50px;
+}
+
+#photoaff2
+{
+	float: right;
+	margin-top: -400px;
+	margin-right: 100px;
+
+}
+
+
+#photoaff1
+{
+	float: left;
+	margin-top: -400px;
+	margin-left: 100px;
+}
+
+#resultat
+{
+	text-align: center;
+	font-size: 50px;
+	margin-top: -50px;
+}
+
+#gagne, #perdu, #egalite{
+	color:white;
+	width: 500px;
+	height: 60px;
+	font-size: 40px;
+	background-color: black;
+	border-radius: 10%;
+}
+
